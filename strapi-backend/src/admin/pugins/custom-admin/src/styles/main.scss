@@ -1,0 +1,20 @@
+// Basisvariablen
+$primary: #4361ee;
+$secondary: #3f37c9;
+$accent: #4cc9f0;
+
+// Dynamische Theme-Variablen
+:root {
+  --theme-primary: #{$primary};
+  --theme-secondary: #{$secondary};
+  --theme-accent: #{$accent};
+}
+
+// Theme-Klassen
+.theme-primary {
+  color: var(--theme-primary);
+}
+
+.theme-bg-primary {
+  background-color: var(--theme-primary);
+}
